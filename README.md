@@ -49,26 +49,13 @@ El sistema debe actualizar el contador correspondiente al registrar cada pieza.
 6. Registrar el resultado en un archivo CSV.
 7. Detener el procesamiento cuando se pulse el botón DETENER.
 
-## 7. Instalación y ejecución
-
-Se requiere Python 3 y las dependencias del proyecto.
-
-Desde una terminal abierta en la carpeta principal:
-
-```bash
-pip install -r requirements.txt
-python src/mini_linea_produccion.py
-```
-
-Los comandos anteriores corresponden a la estructura preparada del repositorio y deben verificarse en el entorno donde se ejecute el proyecto.
-
-## 8. Pruebas y validación
+## 7. Pruebas y validación
 
 Se deben realizar pruebas con piezas rojas, azules y de otros colores, además de verificar el comportamiento del sistema cuando no hay piezas y cuando está detenido.
 
 Los resultados de las pruebas físicas deben registrarse en la documentación del proyecto. No se considerará validada una función hasta comprobar su funcionamiento en el prototipo.
 
-## 9. Estado del proyecto
+## 8. Estado del proyecto
 
 El proyecto se encuentra en desarrollo. Se están revisando y probando los procesos de detección, clasificación, conteo y control del estado del dashboard.
 
