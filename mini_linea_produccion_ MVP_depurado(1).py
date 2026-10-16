@@ -499,16 +499,37 @@ class ProductionSystem:
     # PROCESAR IMAGEN
     # ========================================================
 
-    def process_frame(self, frame):
+    def start_system(self):
+    if self.camera is None or not self.camera.isOpened():
+        self.status_label.config(text="ERROR DE CÁMARA")
+        return
 
-        display_frame = frame.copy()
+    self.system_running = True
+    self.processing_piece = False
+    self.no_piece_frames = 0
 
-        # Convertir a HSV
+    self.status_label.config(text="FUNCIONANDO")
+    self.sensor_label.config(text="SIN PIEZA")
+    self.color_label.config(text="---")
+    self.result_label.config(text="SIN CLASIFICAR")
 
-        hsv = cv2.cvtColor(
-            frame,
-            cv2.COLOR_BGR2HSV
-        )
+    print("Sistema iniciado correctamente.")
+
+
+def stop_system(self):
+    self.system_running = False
+
+    # Reiniciar el estado de detección.
+    self.processing_piece = False
+    self.no_piece_frames = 0
+
+    self.status_label.config(text="DETENIDO")
+    self.sensor_label.config(text="SIN PIEZA")
+    self.color_label.config(text="---")
+    self.result_label.config(text="SIN CLASIFICAR")
+
+    print("Sistema detenido. Conteo desactivado."
+         )
 
         # ----------------------------------------------------
         # DETECCIÓN GENERAL DE LA PIEZA
