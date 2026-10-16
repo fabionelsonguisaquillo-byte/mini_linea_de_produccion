@@ -1,0 +1,52 @@
+# Acuerdo de colaboración del equipo
+
+## Proyecto: Mini Línea de Producción Automatizada
+
+### 1. Objetivo
+
+Establecer las reglas básicas de organización, comunicación y trabajo colaborativo para desarrollar el proyecto de manera ordenada.
+
+### 2. Responsabilidades
+
+- Cada integrante será responsable de las tareas que acuerde con el equipo.
+- Los integrantes deberán comunicar sus avances, dificultades y cambios realizados.
+- Las decisiones importantes sobre el funcionamiento del sistema se discutirán entre los integrantes.
+
+### 3. Uso de GitHub
+
+- El repositorio será el espacio compartido para almacenar el código y la documentación.
+- Los cambios se registrarán mediante commits con mensajes claros.
+- Antes de modificar archivos compartidos, los integrantes revisarán los cambios recientes.
+- No se eliminarán ni reemplazarán cambios de otros integrantes sin comunicarse previamente.
+- Los archivos deberán mantenerse organizados y documentados.
+
+### 4. Revisión de cambios
+
+Antes de integrar cambios importantes, el equipo verificará que el código funcione y que las modificaciones correspondan a los objetivos del proyecto. Cuando sea necesario, se solicitará la revisión de otro integrante.
+
+### 5. Comunicación
+
+Los integrantes informarán oportunamente sobre el estado de sus tareas y coordinarán las modificaciones para evitar conflictos en los archivos.
+
+### 6. Compromiso
+
+Los integrantes se comprometen a participar activamente, cumplir las tareas acordadas y mantener una comunicación respetuosa durante el desarrollo del proyecto.
+
+## Funciones y responsabilidades del equipo
+
+- **Integrante 1 – Visión artificial:** desarrollar el código para capturar imágenes desde la cámara, procesarlas con OpenCV e identificar los colores de las piezas, comparándolos con los valores de referencia establecidos.
+
+- **Integrante 2 – Clasificación e integración del sistema:** desarrollar la lógica para determinar si las piezas cumplen con los criterios de color, clasificarlas como aceptadas o rechazadas y organizar los resultados del programa.
+
+## Compromiso del equipo
+
+Ambos integrantes se comprometen a desarrollar sus respectivas secciones, integrar el código, realizar pruebas de funcionamiento y registrar los avances y cambios en GitHub.
+
+### 7. Integrantes
+
+- Integrante 1: FABIO NELSON GUISAQUILLO
+- Integrante 2: JUAN ESTEBAN CORTES 
+
+
+
+Fecha: 15/10/2026
