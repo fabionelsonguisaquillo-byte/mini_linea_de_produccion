@@ -53,10 +53,7 @@ El sistema debe actualizar el contador correspondiente al registrar cada pieza.
 
 Se deben realizar pruebas con piezas rojas, azules y de otros colores, además de verificar el comportamiento del sistema cuando no hay piezas y cuando está detenido.
 
-Los resultados de las pruebas físicas deben registrarse en la documentación del proyecto. No se considerará validada una función hasta comprobar su funcionamiento en el prototipo.
-
 ## 8. Estado del proyecto
 
 El proyecto se encuentra en desarrollo. Se están revisando y probando los procesos de detección, clasificación, conteo y control del estado del dashboard.
 
-La integración con el sensor de presencia, la banda transportadora y el servomotor debe verificarse según el avance real del prototipo.
